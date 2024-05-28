@@ -1,6 +1,6 @@
 let NomeHeroi = "Leonardo"
     console.log("Olá " + NomeHeroi + "!")
-let NivelExp = 20000
+let NivelExp = 200
     console.log("Seu nível de experiência é: " + NivelExp)
     
 if(NivelExp <=1000){
