@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Clínica</title>
+    <style>
+        html {margin: 0; background-color: #ddd; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0;}
+        header { background-color: #ddd; padding: 1px; text-align: center;}
+        footer { background-color: #fff; padding: 1px; text-align: center; border-radius: 10px;}
+        nav { background-color: #888888; color: #fff; padding: 5px; text-align: center; border-radius: 5px; }
+        nav a { color: #fff; margin: 0 5px; text-decoration: none; margin: 0 40px 0 40px; border: 1px solid #ddd; padding: 2px 4px 2px 4px; border-radius: 4px;}
+        .content { padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; flex-direction: row; }
+        .banner {max-width: 1200px; margin: 0 auto;}
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table, th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #f2f2f2; }
+        iframe { width: 100%; height: 400px; border: none; }
+        .content h1 {text-align: center;}
+        .content p {text-align: center; }
+        .menu ul li a {text-decoration: none; color: #050505;}
+        .menu { width: 25%; background-color: #9ec0d454; border-radius: 10px; height: 350px; border: 1px solid #050505; box-shadow: 5px 5px 20px 1px #888888;}
+        .menu h3 {padding: 10px 0 0 20px;}
+        .menu h3 a {text-decoration: none;}
+        header img {box-sizing: border-box; opacity: 70%; border-radius: 10px;}
+        section {display:flex;}
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <img src="img/header.jpg" alt="Imagem da Clínica" width="100%">
+        </header>
+    </div>
+    <div class="container">
+       
+        <nav>
+            <a href="index.html" target="_blank"><b>Página Principal</b></a>
+            <a href="sobre.html"><b>Sobre a clínica</b></a>
+            <a href="horario.html" target="_blank"><b>Horário de Atendimento</b></a>
+            <a href="contato.html" target="_blank"><b>Contato</b></a>
+        </nav>
+
+        <div class="content">
+            <h1>Bem-vindo à nossa Clínica Médica Milagres do coração</h1>
+            <p><b>Oferecemos uma variedade de serviços médicos para cuidar da sua saúde cardiovascular com a máxima qualidade e atenção.</b></p>
+        </div>
+        <div class="content">
+            <h1>Contato</h1>
+            <p>Telefone: (99) 99999-9999 | WhatsApp: (99) 99999-9999</p>
+            <p>Endereço: Rua dos Milagres, 000 - Milagre, MG</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345072063!2d144.95712821568818!3d-37.817209442791045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218cce6e0!2sVictoria%20State%20Library!5e0!3m2!1sen!2sau!4v1616549823768!5m2!1sen!2sau" allowfullscreen></iframe>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required><br><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </div>
+        <footer>
+            <p>Contato: (99) 99999-9999 | Endereço: Rua dos Milagres, 000 - Milagre, MG</p>
+        </footer>
+    </div>
+</body>
+</html>

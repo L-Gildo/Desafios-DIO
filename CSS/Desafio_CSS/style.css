@@ -1,0 +1,209 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* FIM GLOBAL */
+
+/* HEADER - Na ordem de apresentação do doc HTML*/
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(1, 26, 43);
+    border-bottom: solid 1px rgb(2, 138, 138);
+}
+
+.banner .banner-content {
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.logo img {
+    background-color: rgba(0, 0, 0, 0.18);
+    border-radius: 50%;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 40PX;
+}
+
+.banner h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.banner p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+    width: 600px;
+  }
+
+.banner .banner-content button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border: solid;
+    border-radius: 30px;
+    margin-bottom: 50px;
+  }
+/* FIM HEADER*/
+
+/* SECTION id="course-content" - Na ordem de apresentação do doc HTML*/
+#course-content {
+    width: auto;
+    height: 380px;
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+ #course-content P {
+    margin:auto;
+    width: 950px;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+}
+/*FIM SECTION id="course-content"*/
+
+/*INÍCIO SECTION id="transform-world"*/
+#transform-world p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+#transform-world {
+    height: 200px;
+    background-size: cover;
+    background-image: url("img/woman-code.png");
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 150px;
+  }
+/*FIM SECTION id="transform-world"*/
+
+/* INÍCIO SECTION id="professional-challenges"*/
+  #professional-challenges {
+    text-align: center;
+    width: 800px;
+    background-color: black;
+    width: auto;
+    padding: 50px
+  }
+
+  #professional-challenges h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: auto;
+    width: 700px;
+  }
+  
+  #professional-challenges img {
+    margin: 32px 0;
+  }
+
+  #professional-challenges p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    width: 900px;
+    text-align: center;
+    margin: auto auto 40px auto;
+
+  }
+/* FIM SECTION id="professional-challenges"*/
+  
+/* INÍCIO SECTION id="professional-challenges"*/
+  footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+    background-color: black;
+  }
+  
+  footer .dio-logo {
+    width: 300px;
+  }
+
+  footer p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+  }
