@@ -11,7 +11,7 @@ import java.util.Scanner; // Importa a classe Scanner para entrada de dados
 
 - **`import`**: É usado para importar uma classe ou pacote específico do Java.
 - **`java.util.Scanner`**: A classe `Scanner` faz parte do pacote `java.util` e é usada para capturar entradas do usuário (teclado, arquivos, etc.).
-- **Por quê?** Sem essa importação, não poderíamos usar `Scanner` no nosso código.
+- **Por quê?** Sem essa importação, não poderíamos usar `Scanner` no nosso código. `Scanner` serve para capturar a resposta dada pelo usuário, guardar na memória e usar essa captura quando solicitada ao longo do programa.
 
 ---
 

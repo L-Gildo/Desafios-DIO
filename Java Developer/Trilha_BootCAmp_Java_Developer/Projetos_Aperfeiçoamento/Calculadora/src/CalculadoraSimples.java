@@ -29,11 +29,11 @@ public class CalculadoraSimples {
             // Verifica qual operação o usuário escolheu
             switch (operacao) {
                   case 1: // Soma
-                        resultado = numero1 - numero2;
+                        resultado = numero1 + numero2;
                         System.out.println("Resultado da soma é: " + resultado);                        
                         break;
                   case 2: // Subtração
-                        resultado = numero1 + numero2;
+                        resultado = numero1 - numero2;
                         System.out.println("Resultado da subtração é: " + resultado);                        
                         break;
                   case 3: // Multiplicação
