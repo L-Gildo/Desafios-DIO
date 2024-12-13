@@ -1,7 +1,7 @@
 ## Explicação do código
 
-Para efeito de aprendizagem inicial em Java esse é meu primeiro projeto como estudante de Java. Calculadora simples rodando no terminal do VSCode. Logo e breve farei essa mesma calculadora rodar em um ambiente externo.
-Ao logo do código, é perceptível que a calculadora só suporta as quatro operações básaicas.
+Para efeito de aprendizagem inicial em Java esse é meu primeiro projeto como estudante de Java. Calculadora simples rodando no terminal do VSCode. Logo em breve farei essa mesma calculadora rodar em um ambiente externo.
+Ao logo do código, é perceptível que a calculadora só suporta as quatro operações básicas.
 
 ### **1. Importando a classe Scanner**
 
